@@ -1,0 +1,486 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', arial, sans-serif;
+}
+
+.header_promo {
+    background-image: url(../images/backgtound.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    max-width: 100%;
+    height: 852px;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    padding: 40px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.link_of_menu {
+    text-decoration: none;
+    padding: 25px;
+    color: #fff;
+}
+
+.link_of_menu:last-child {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(237, 255, 129, 0.4);
+    border-radius: 116px;
+    width: 140px;
+    height: 69px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.promo {
+    text-align: center;
+    color: #fff;
+    margin: 200px 0;
+}
+
+.mini_title_of_promo {
+    font-size: 36px;
+    opacity: 0.8;
+    font-weight: 500;
+}
+
+.title_of_promo {
+    font-size: 90px;
+}
+
+.subtitle_of_promo {
+    font-size: 22px;
+    line-height: 40px;
+    opacity: 0.6;
+    margin-bottom: 40px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 27px 67px;
+    background: linear-gradient(328.68deg, #98AA28 13.03%, #D6FF7E 120.61%);
+    box-shadow: 0px 34px 50px rgba(7, 63, 67, 0.07);
+    border-radius: 192px;
+    color: #FFFF;
+    text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    width: 108px;
+    height: 23px;
+    font-weight: 900;
+}
+
+.topic_text {
+    font-size: 42px;
+    text-align: center;
+    margin: 73px 0;
+}
+
+.content_block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    width: 230px;
+    margin: 0 10px;
+}
+
+.content:last-child {
+    width: 233px;
+}
+
+.icon_orange {
+    background-image: url(../images/orange.png);
+    background-repeat: no-repeat;
+    height: 50px;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 24px;
+    color: #253D32;
+    margin-top: 40px;
+}
+
+.subtitle {
+    font-size: 18px;
+    line-height: 32px;
+    color: #78847D;
+    margin: 25px 0;
+}
+
+.icon_green {
+    background-image: url(../images/green.png);
+    background-repeat: no-repeat;
+    height: 50px;
+}
+
+.icon_blue {
+    background-image: url(../images/blue.png);
+    background-repeat: no-repeat;
+    height: 50px;
+}
+
+.icon_purple {
+    background-image: url(../images/purple.png);
+    background-repeat: no-repeat;
+    height: 50px;
+}
+
+.partner_block {
+    background: #2D483A;
+    min-height: 140px;
+}
+
+.partners_logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.partners {
+    width: 150px;
+    margin-top: 54px;
+}
+
+.footer_content {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+.markethink {
+    width: 354px;
+}
+
+.markethink_img {
+    margin-top: 40px;
+}
+
+.text_of_markethink {
+    margin: 30px 0;
+    font-size: 20px;
+    line-height: 34px;
+    color: #78847D;
+}
+
+.menu_of_footer {
+    width: 117px;
+}
+
+.menu_img {
+    margin-top: 45px;
+}
+
+.links {
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    color: #78847D;
+    margin-top: 55px;
+}
+
+.services_img {
+    margin-top: 45px;
+}
+
+.company_img {
+    margin-top: 42px;
+    height: 22px;
+}
+
+hr {
+    margin: 30px 0;
+}
+
+.copyright {
+    font-size: 16px;
+    color: #78847D;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.logo_images {
+    width: 100%;
+}
+
+.logo_img {
+    width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+    .link_of_menu:last-child {
+        text-align: center;
+    }
+
+    .title_of_promo {
+        font-size: 50px;
+        margin: 30px 0;
+    }
+
+    .subtitle_of_promo {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .link_of_menu {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    .partners {
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .menu {
+        font-size: 15px;
+    }
+
+    .mini_title_of_promo {
+        font-size: 20px;
+    }
+
+    .title_of_promo {
+        font-size: 30px;
+        margin: 20px 0;
+    }
+
+    .subtitle_of_promo {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .link_of_menu {
+        padding: 15px;
+        font-size: 15px;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        font-weight: 500;
+        font-size: 15px;
+    }
+
+    .topic_text {
+        font-size: 30px;
+    }
+
+    .content_block {
+        flex-wrap: wrap;
+    }
+
+    .partners {
+        width: 80px;
+    }
+
+    .footer_content {
+        flex-wrap: wrap;
+    }
+
+    .markethink {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .fb {
+        margin: 0 20px;
+    }
+
+    .tw {
+        margin: 0 20px;
+    }
+
+    .ins {
+        margin: 0 20px;
+    }
+
+    .menu_of_footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 15px;
+    }
+
+    .services_of_footer {
+        margin: 0 15px;
+    }
+
+    .company_of_footer {
+        margin: 0 15px;
+    }
+
+    .markethink_img {
+        width: 60%;
+        margin-top: 30px;
+    }
+
+    .menu_img {
+        width: 40%;
+        margin: 15px 0;
+    }
+
+    .services_img {
+        width: 50%;
+        margin: 15px 0;
+    }
+
+    .company_img {
+        width: 50%;
+        margin: 15px 0;
+    }
+
+    @media screen and (max-width: 503px) {
+        .header {
+            flex-direction: column;
+        }
+
+        .menu {
+            font-size: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .link_of_menu {
+            padding: 15px;
+            font-size: 15px;
+        }
+
+        .mini_title_of_promo {
+            font-size: 17px;
+            margin-bottom: 20px;
+        }
+
+        .title_of_promo {
+            line-height: 10px;
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+
+        .subtitle_of_promo {
+            font-size: 15px;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            font-weight: 300;
+            font-size: 10px;
+        }
+
+        .topic_text {
+            font-size: 30px;
+        }
+
+        .content_block {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .partners_logo {
+            flex-wrap: wrap;
+        }
+
+        .partners {
+            width: 30%;
+            margin: 15px;
+        }
+
+        .footer_content {
+            flex-wrap: wrap;
+            text-align: center;
+        }
+
+        .markethink {
+            margin: 30px auto;
+        }
+
+        .markethink_img {
+            width: 80%;
+            margin: 5px 0;
+        }
+
+        .menu_img {
+            width: 20%;
+            margin: 15px 0;
+        }
+
+        .services_img {
+            width: 30%;
+            margin: 15px 0;
+        }
+
+        .company_img {
+            width: 50%;
+            margin: 15px 0;
+        }
+
+        .text_of_markethink {
+            font-size: 20px;
+            line-height: 30px;
+        }
+
+        .fb {
+            margin: 0 20px;
+        }
+
+        .tw {
+            margin: 0 20px;
+        }
+
+        .ins {
+            margin: 0 20px;
+        }
+
+        .menu_of_footer {
+            width: 100%;
+            margin-right: 5px;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            font-size: 20px;
+            padding: 0;
+            margin: 40px 30px;
+        }
+
+        .services_of_footer {
+            width: 100%;
+        }
+
+        .company_of_footer {
+            width: 100%;
+        }
+
+        .content:last-child {
+            width: 230px;
+        }
+    }
+}
